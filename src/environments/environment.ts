@@ -3,9 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyCs_FoPeoxlx0w6Yw3t8TssWNbBK82aR3Y",
+    authDomain: "e-commerce-angular-pwa-ngrx.firebaseapp.com",
+    databaseURL: "https://e-commerce-angular-pwa-ngrx.firebaseio.com",
+    projectId: "e-commerce-angular-pwa-ngrx",
+    storageBucket: "e-commerce-angular-pwa-ngrx.appspot.com",
+    messagingSenderId: "153953711235",
+  }
 };
-
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
