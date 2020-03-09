@@ -7,12 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent {
   title = 'ecommerce-angular';
-  constructor() {
 
-  }
-  // ngOnInit(): void {
-  //   console.log(
-  //     this._fireService.createUser({ name: "Divesh" })
-  //   );
-  // }
+
 }
+
